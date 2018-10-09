@@ -102,11 +102,15 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 
+" python
+Plug 'zchee/deoplete-jedi'
+
 " Initialize plugin system
 call plug#end()
 syntax enable
 set ts=4
-set expandtab
+set cursorline
+
 let g:go_version_warning = 0
 ```
 
