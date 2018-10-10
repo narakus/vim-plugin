@@ -126,3 +126,5 @@ https://golang.org/doc/install?download=go1.11.1.linux-amd64.tar.gz
 https://github.com/neovim/neovim/wiki/Installing-Neovim
 
 https://github.com/junegunn/vim-plug
+
+https://github.com/nsf/gocode
