@@ -105,11 +105,16 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " python
 Plug 'zchee/deoplete-jedi'
 
+" golang
+Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '/usr/local/gocode/src/github.com/mdempsky/gocode/nvim/symlink.sh'  }
+
 " Initialize plugin system
 call plug#end()
 syntax enable
 set ts=4
-set cursorline
+set expandtab
+set autoindent
+" set cursorline
 
 let g:go_version_warning = 0
 ```
