@@ -49,7 +49,7 @@ pip3 install neovim
 
 
 
-##### #~/.config/nvim
+##### #~/.config/nvim/init.vim
 
 ```neovim
 " Specify a directory for plugins
