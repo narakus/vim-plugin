@@ -108,6 +108,10 @@ Plug 'zchee/deoplete-jedi'
 " golang
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '/usr/local/gocode/src/github.com/mdempsky/gocode/nvim/symlink.sh'  }
 
+Plug 'vim-scripts/luainspect.vim'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-lua-ftplugin'
+
 " Initialize plugin system
 call plug#end()
 syntax enable
